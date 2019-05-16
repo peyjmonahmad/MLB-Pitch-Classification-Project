@@ -5,7 +5,7 @@ The main objective at hand dealt with solving a multiclass classification proble
 
 The beginning stages included extensive cleaning, imputing values, and dropping many columns that had no use towards ultimately predicting the correct type of pitch.  Next, I performed some exploratory data analysis, which was critical for understanding distributions of unique variables, correlations, and necessary data type conversions.
 
-Once the data was in shape for modeling, the main algorithms applied were Logistic Regression and Random Forest.  Logistic Regression performed very poorly, while the data appeared to fit the Random Forest model very well.  The best results achieved were 87% weighted precision and recall scores, meaning that about 623,512/716,681 were correctly classified as the true pitch delivered.
+Once the data was in shape for modeling, the main algorithms applied were Logistic Regression and Random Forest.  Logistic Regression performed very poorly, while the data appeared to fit the Random Forest model very well.  The best results achieved were 87% weighted precision and recall scores, meaning that about 623,512 out of 716,681 total pitches were correctly classified as the true pitch delivered.
 
 My entire workflow and analysis can be seen in my MLB_Pitch_Classification_Project.ipynb notebook.
 
